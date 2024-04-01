@@ -1,6 +1,7 @@
 name: nightly build at 11pm
 
 on:
+  push: # <<- this is for test the script now otherwise this will run at 11 PM
   schedule:
     - cron: '0 23 * * *'
 
